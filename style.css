@@ -1,0 +1,473 @@
+/* CSS RESET */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CSS RESET */
+
+
+header {
+    display: flex;
+    padding: 2rem 0;
+    height: 100vh;
+    background: url(/assets/images/building.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+nav>img {
+    width: 35%;
+    height: auto;
+    padding-left: 1rem;
+    padding-right: 20%;
+}
+
+.nav-links {
+    padding-left: 35%;
+}
+
+.nav-links>a {
+    text-decoration: none;
+    color: white;
+    padding: 0 1rem;
+}
+
+header>nav {
+    display: flex;
+    align-items: center;
+    /* padding-left: 65%; */
+}
+
+header>nav>a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    width: 65%;
+    text-align: center;
+}
+
+.landing .content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+    margin: auto;
+}
+
+.content>div,
+button {
+    padding: 6px 0;
+}
+
+.line-one>h1 {
+    font-size: 1.25rem;
+}
+
+.line-two>h2 {
+    font-size: 3rem;
+}
+
+.line-three>h3 {
+    font-size: 1.1rem;
+}
+
+.landing .content>button {
+    background-color: lightblue;
+    border: none;
+    padding: 10px 20px;
+}
+
+.services>.title {
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.offerings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 50px 0 30px 0;
+}
+
+.branding,
+.marketing,
+.web,
+.lead-generation,
+.creative,
+.social {
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.branding,
+.marketing,
+.web,
+.lead-generation,
+.creative,
+.social>p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+/* COME BACK TO THE BELOW */
+
+.branding>h2 {
+    font-size: 1.5rem;
+}
+
+.marketing>h2 {
+    font-size: 1.5rem;
+}
+
+.web>h2 {
+    font-size: 1.5rem;
+}
+
+.lead-generation>h2 {
+    font-size: 1.5rem;
+}
+
+.creative>h2 {
+    font-size: 1.5rem;
+}
+
+.social>h2 {
+    font-size: 1.5rem;
+}
+
+/* *********************** */
+
+.services-button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.quote {
+    background-color: #333333;
+    padding: 30px 0;
+    margin: 30px 0;
+    color: white;
+}
+
+.quote>h2 {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.info {
+    margin: 7% 0;
+}
+
+.problems {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+.problems>h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.problems>p {
+    width: 80%;
+    margin: auto;
+}
+
+.about>img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.about {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.about-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 80%;
+    margin: auto;
+    background: gray;
+    color: white;
+    padding: 30px 15px;
+}
+
+.growth-strategy>h2 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.growth-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding-top: 30px;
+}
+
+.growth-content>img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.growth-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.portfolio>h2 {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.portfolio-examples {
+    display: grid;
+    padding-top: 20px;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    text-align: center;
+}
+
+.card>img {
+    height: 17rem;
+}
+
+.portfolio>button {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    background-color: #333333;
+}
+
+.last-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    height: 35rem;
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    background-color: white;
+    padding: 65px;
+    box-shadow: 0 4px 8px 0 rgba(52, 165, 185, 0.15), 0 6px 20px 0 rgba(28, 157, 180, 0.329);
+}
+
+.form-group>button {
+    margin-top: 20px;
+    background-color: #333333;
+}
+
+footer {
+    background-color: #333333;
+}
+
+.footer-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px 0;
+}
+
+.contact-us,
+.services-footer,
+.information {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-right: 50px;
+}
+
+.contact-us>h3 {
+    font-size: 1.3rem;
+}
+
+.services-footer>h3 {
+    font-size: 1.3rem;
+}
+
+.information>h3 {
+    font-size: 1.3rem;
+}
+
+.social-icons>i {
+    padding: 10px;
+    color: white;
+}
