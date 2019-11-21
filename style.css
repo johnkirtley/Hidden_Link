@@ -471,3 +471,12 @@ footer {
     padding: 10px;
     color: white;
 }
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 375px) {
+    header {
+        background-size: contain;
+    }
+}
