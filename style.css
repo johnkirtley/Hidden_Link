@@ -477,6 +477,6 @@ footer {
 
 @media (max-width: 375px) {
     header {
-        background-size: contain;
+        background-size: 100% 100%;
     }
 }
