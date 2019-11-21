@@ -167,6 +167,7 @@ header>nav {
 }
 
 header>nav>a {
+    justify-content: flex-end;
     padding: 0 10px;
     text-decoration: none;
     color: black;
@@ -480,9 +481,55 @@ footer {
         background-size: 100% 100%;
     }
 
+    header>nav {
+        padding-bottom: 2%;
+    }
+
     .portfolio-examples {
         display: block;
     }
+
+    nav {
+        overflow: hidden;
+        position: relative;
+    }
+
+    nav>img {
+        width: 45%;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-flow: column nowrap;
+        font-size: .5rem;
+        padding-left: 40%;
+    }
+
+    .landing .content {
+        padding-top: 5%;
+    }
+
+    .line-one>h1 {
+        font-size: .75rem;
+    }
+
+    .line-two>h2 {
+        font-size: 1.5rem;
+    }
+
+    .line-three>h3 {
+        font-size: .8rem;
+    }
+
+    .quote {
+        display: none;
+    }
+
+    .offerings {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
 }
 
 @media (max-width: 600px) {
