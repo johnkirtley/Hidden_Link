@@ -507,7 +507,8 @@ footer {
     }
 
     .landing .content {
-        padding-top: 26%;
+        padding-top: 30%;
+        width: 90%;
     }
 
     .line-one>h1 {
