@@ -532,6 +532,24 @@ footer {
         flex-flow: column nowrap;
     }
 
+    .form-group {
+        width: 80%;
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: center;
+    }
+
+    .footer-items {
+        display: flex;
+        flex-flow: column-reverse nowrap;
+
+    }
+
+    .social-icons {
+        justify-content: center;
+        padding: 10px 0;
+    }
+
 }
 
 @media (max-width: 600px) {
