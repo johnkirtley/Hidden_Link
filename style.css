@@ -507,11 +507,11 @@ footer {
     }
 
     .landing .content {
-        padding-top: 24%;
+        padding-top: 26%;
     }
 
     .line-one>h1 {
-        font-size: .75rem;
+        display: none;
     }
 
     .line-two>h2 {
