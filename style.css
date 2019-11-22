@@ -652,7 +652,7 @@ footer {
     }
 
     .problems {
-        display: block;
+        display: none;
     }
 
     .about {
