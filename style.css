@@ -556,6 +556,12 @@ footer {
     color: white;
 }
 
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
 
 /* MEDIA QUERIES */
 
