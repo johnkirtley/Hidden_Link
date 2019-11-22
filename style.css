@@ -160,6 +160,12 @@ nav>img {
     padding: 0 1rem;
 }
 
+.main-nav a:hover {
+    color: lightcyan;
+    text-decoration: none;
+}
+
+
 .main-nav {
     display: flex;
     align-items: center;
@@ -206,7 +212,7 @@ button {
     font-size: 1.1rem;
 }
 
-.landing .content>button {
+.landing a button {
     background-color: lightblue;
     border: none;
     padding: 10px 20px;
@@ -235,18 +241,81 @@ button {
     padding: 10px 15px;
 }
 
-.branding,
-.marketing,
-.web,
-.lead-generation,
-.creative,
-.social>p {
+.branding:hover {
+    transition: all .3s ease-in;
+    transition: all .2s ease-out;
+    transform: scale(1.2);
+}
+
+.marketing:hover {
+    transition: all .3s ease-in;
+    transition: all .2s ease-out;
+    transform: scale(1.2);
+}
+
+.web:hover {
+    transition: all .3s ease-in;
+    transition: all .2s ease-out;
+    transform: scale(1.2);
+}
+
+.lead-generation:hover {
+    transition: all .3s ease-in;
+    transition: all .2s ease-out;
+    transform: scale(1.2);
+}
+
+.creative:hover {
+    transition: all .3s ease-in;
+    transition: all .2s ease-out;
+    transform: scale(1.2);
+}
+
+.social:hover {
+    transition: all .3s ease-in;
+    transition: all .1s ease-out;
+    transform: scale(1.2);
+}
+
+
+
+/* COME BACK TO THE BELOW */
+.branding p {
     width: 80%;
     text-align: center;
     margin: auto;
 }
 
-/* COME BACK TO THE BELOW */
+.marketing p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.web p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.lead-generation p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.creative p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.social p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
 
 .branding>h2 {
     font-size: 1.5rem;
@@ -354,6 +423,7 @@ button {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
     padding-top: 30px;
+    padding-bottom: 2.5rem;
 }
 
 .growth-content>img {
@@ -399,7 +469,7 @@ button {
     height: 17rem;
 }
 
-.portfolio>button {
+.portfolio a button {
     margin-top: 25px;
     margin-bottom: 40px;
     background-color: #333333;
@@ -516,7 +586,7 @@ footer {
     }
 
     .main-nav li {
-        text-align: center;
+        text-align: right;
         margin: 15px auto;
     }
 
