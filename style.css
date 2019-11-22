@@ -238,7 +238,7 @@ button {
 .creative,
 .social {
     text-align: center;
-    padding: 10px 15px;
+    padding: .5rem 0 2.5rem 0
 }
 
 .branding:hover {
@@ -284,36 +284,47 @@ button {
     width: 80%;
     text-align: center;
     margin: auto;
+    font-size: .8rem;
 }
 
 .marketing p {
     width: 80%;
     text-align: center;
     margin: auto;
+    font-size: .8rem;
+
 }
 
 .web p {
     width: 80%;
     text-align: center;
     margin: auto;
+    font-size: .8rem;
+
 }
 
 .lead-generation p {
     width: 80%;
     text-align: center;
     margin: auto;
+    font-size: .8rem;
+
 }
 
 .creative p {
     width: 80%;
     text-align: center;
     margin: auto;
+    font-size: .8rem;
+
 }
 
 .social p {
     width: 80%;
     text-align: center;
     margin: auto;
+    font-size: .8rem;
+
 }
 
 
