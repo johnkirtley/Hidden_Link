@@ -651,6 +651,14 @@ footer {
         flex-flow: column nowrap;
     }
 
+    .problems {
+        display: block;
+    }
+
+    .about {
+        display: none;
+    }
+
     .form-group {
         width: 80%;
         display: flex;
