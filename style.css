@@ -428,6 +428,10 @@ button {
     padding: 30px 15px;
 }
 
+.growth-strategy {
+    display: none;
+}
+
 .growth-strategy>h2 {
     text-align: center;
     padding: 20px 0;
