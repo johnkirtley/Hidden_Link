@@ -705,7 +705,7 @@ footer {
     }
 
     .growth-content {
-        display: block;
+        display: none;
     }
 
     .growth-content img {
