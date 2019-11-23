@@ -133,6 +133,10 @@ table {
 
 /* CSS RESET */
 
+body {
+    width: 100%;
+}
+
 
 header {
     display: flex;
