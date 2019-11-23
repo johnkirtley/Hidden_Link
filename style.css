@@ -522,14 +522,26 @@ footer {
     padding: 40px 0;
 }
 
-.contact-us,
-.services-footer,
-.information {
+.footer-items .column {
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: center;
     color: white;
+    padding-bottom: 1rem;
+}
+
+.footer-items .column p {
+    margin-bottom: 0;
+}
+
+.footer-items .column a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-items .column a:hover {
+    color: rgb(56, 151, 151)
 }
 
 .social-icons {
