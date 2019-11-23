@@ -598,6 +598,10 @@ footer {
     .content h2 {
         font-size: 1.4rem;
     }
+
+    .growth-content {
+        display: block;
+    }
 }
 
 @media (max-width: 599px) {
@@ -699,6 +703,15 @@ footer {
     .about {
         display: none;
     }
+
+    .growth-content {
+        display: block;
+    }
+
+    .growth-content img {
+        padding: 3rem 0 2rem 0;
+    }
+
 
     .form-group {
         width: 80%;
