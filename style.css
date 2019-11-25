@@ -359,9 +359,10 @@ button {
 /* *********************** */
 
 .services-button {
-    display: flex;
+    display: none;
+    /* display: flex;
     justify-content: center;
-    padding-bottom: 40px;
+    padding-bottom: 40px; */
 }
 
 .quote {
