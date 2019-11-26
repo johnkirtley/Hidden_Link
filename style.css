@@ -709,6 +709,8 @@ footer {
 
     .about {
         display: none;
+        /* display: flex;
+        flex-flow: column nowrap; */
     }
 
     .growth-content {
