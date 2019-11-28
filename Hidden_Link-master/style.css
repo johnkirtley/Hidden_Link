@@ -1,0 +1,953 @@
+/* CSS RESET */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CSS RESET */
+
+body {
+    width: 100%;
+}
+
+
+header {
+    display: flex;
+    padding: 2rem 0;
+    height: 100vh;
+    background: url(/assets/images/header.jpg) no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+nav>img {
+    width: 35%;
+    height: auto;
+    padding-left: 1rem;
+    padding-right: 20%;
+}
+
+.nav-links {
+    padding-left: 35%;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0 1rem;
+}
+
+.main-nav a:hover {
+    color: lightcyan;
+    text-decoration: none;
+}
+
+
+.main-nav {
+    display: none;
+    /* display: flex;
+    align-items: center; */
+    /* padding-left: 65%; */
+}
+
+.main-nav {
+    justify-content: flex-end;
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.content {
+    width: 65%;
+    text-align: center;
+}
+
+.landing .content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+    margin: auto;
+}
+
+.content>div,
+button {
+    padding: 3px 0;
+}
+
+.line-one>h1 {
+    font-size: 1.25rem;
+}
+
+.line-two>h2 {
+    font-size: 3rem;
+}
+
+.line-three>h3 {
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+}
+
+.landing a button {
+    background-color: lightblue;
+    border: none;
+    padding: 10px 20px;
+}
+
+.services>.title {
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.offerings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 50px 0 30px 0;
+}
+
+.branding,
+.marketing,
+.web,
+.lead-generation,
+.creative,
+.social {
+    text-align: center;
+    padding: .5rem 0 2.5rem 0
+}
+
+.branding:hover {
+    transition: all .3s ease-in;
+    transition: all .2s ease-out;
+    transform: scale(1.2);
+}
+
+.marketing:hover {
+    transition: all .3s ease-in;
+    transition: all .2s ease-out;
+    transform: scale(1.2);
+}
+
+.web:hover {
+    transition: all .3s ease-in;
+    transition: all .2s ease-out;
+    transform: scale(1.2);
+}
+
+.lead-generation:hover {
+    transition: all .3s ease-in;
+    transition: all .2s ease-out;
+    transform: scale(1.2);
+}
+
+.creative:hover {
+    transition: all .3s ease-in;
+    transition: all .2s ease-out;
+    transform: scale(1.2);
+}
+
+.social:hover {
+    transition: all .3s ease-in;
+    transition: all .1s ease-out;
+    transform: scale(1.2);
+}
+
+
+
+/* COME BACK TO THE BELOW */
+.branding p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: .8rem;
+}
+
+.marketing p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: .8rem;
+
+}
+
+.web p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: .8rem;
+
+}
+
+.lead-generation p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: .8rem;
+
+}
+
+.creative p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: .8rem;
+
+}
+
+.social p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: .8rem;
+
+}
+
+
+.branding>h2 {
+    font-size: 1.5rem;
+}
+
+.marketing>h2 {
+    font-size: 1.5rem;
+}
+
+.web>h2 {
+    font-size: 1.5rem;
+}
+
+.lead-generation>h2 {
+    font-size: 1.5rem;
+}
+
+.creative>h2 {
+    font-size: 1.5rem;
+}
+
+.social>h2 {
+    font-size: 1.5rem;
+}
+
+/* *********************** */
+
+.services-button {
+    display: none;
+    /* display: flex;
+    justify-content: center;
+    padding-bottom: 40px; */
+}
+
+.quote {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #333333;
+    padding: 30px 0;
+    margin: 30px 0 0 0;
+    color: white;
+}
+
+.quote>h3 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.quote>p {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 1rem 0;
+}
+
+.quote>h2 {
+    width: 70%;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: auto;
+}
+
+.info {
+    margin: 7% 0;
+}
+
+.problems {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+.problems>h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.problems>p {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 80%;
+    margin: auto;
+}
+
+.problems-paragraph {
+    padding-top: 1.5rem;
+}
+
+.about>img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    margin: auto;
+}
+
+.about {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+
+}
+
+.about-title>h3 {
+    font-size: 2.75rem;
+    padding-bottom: 1rem;
+}
+
+.about-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 60%;
+    margin: auto;
+    color: black;
+    padding: 30px 15px;
+    font-size: 1.1rem;
+}
+
+.growth-strategy {
+    display: none;
+}
+
+.growth-strategy>h2 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.growth-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding-top: 30px;
+    padding-bottom: 2.5rem;
+}
+
+.growth-content>img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.growth-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.portfolio>h2 {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.portfolio-examples {
+    display: grid;
+    padding-top: 20px;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    text-align: center;
+}
+
+.card>img {
+    height: 17rem;
+}
+
+.portfolio a button {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    background-color: #333333;
+}
+
+.last-section {
+    display: none;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    height: 35rem; */
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    background-color: white;
+    padding: 65px;
+    box-shadow: 0 4px 8px 0 rgba(52, 165, 185, 0.15), 0 6px 20px 0 rgba(28, 157, 180, 0.329);
+}
+
+.form-group>button {
+    margin-top: 20px;
+    background-color: #333333;
+}
+
+footer {
+    background-color: #333333;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 0 0;
+}
+
+.footer-items .column {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}
+
+.footer-items .column p {
+    margin-bottom: 0;
+}
+
+.footer-items .column a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-items .column a:hover {
+    color: rgb(56, 151, 151)
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.contact-us>h3 {
+    font-size: 1.3rem;
+}
+
+.services-footer>h3 {
+    font-size: 1.3rem;
+}
+
+.information>h3 {
+    font-size: 1.3rem;
+}
+
+.social-icons>a {
+    padding: 10px;
+    color: white;
+}
+
+.social-icons a:hover {
+    color: rgb(56, 151, 151);
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 812px) and (orientation: landscape) {
+    header {
+        background-size: 100% 100%;
+        height: 125vh;
+    }
+
+    .landing .content {
+        padding: 10% 0 10% 0;
+    }
+
+    .content h1 {
+        display: none;
+    }
+
+    .content h2 {
+        font-size: 1.4rem;
+    }
+}
+
+
+@media (max-width: 599px) {
+    header {
+        background-size: 100% 100%;
+        height: 90vh;
+    }
+
+    header>nav {
+        padding-bottom: 2%;
+    }
+
+    .portfolio-examples {
+        display: block;
+    }
+
+    nav {
+        overflow: hidden;
+        position: relative;
+    }
+
+    nav>img {
+        width: 45%;
+    }
+
+    .navbar {
+        font-size: 18px;
+    }
+
+    .main-nav {
+        list-style-type: none;
+        display: none;
+        margin-top: 2rem;
+    }
+
+    .nav-links {
+        text-decoration: none;
+    }
+
+    .main-nav li {
+        text-align: right;
+        margin: 15px auto;
+    }
+
+    .main-nav li a {
+        color: white;
+    }
+
+    .navbar-toggle {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    .active {
+        display: block;
+    }
+
+
+    .nav-links {
+        display: flex;
+        flex-flow: column nowrap;
+        font-size: .5rem;
+        padding-left: 40%;
+    }
+
+    .landing .content {
+        padding-top: 35%;
+        width: 90%;
+    }
+
+    .line-one>h1 {
+        display: none;
+    }
+
+    .line-two>h2 {
+        font-size: 2rem;
+    }
+
+    .line-three>h3 {
+        font-size: .8rem;
+    }
+
+    .services>h1 {
+        font-size: 2.1rem;
+    }
+
+    .quote {
+        display: block;
+    }
+
+    .quote>p {
+        font-size: .9rem;
+        width: 90%;
+        line-height: 1.5rem;
+    }
+
+    .offerings {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .problems {
+        display: none;
+    }
+
+    .about {
+        display: flex;
+        flex-flow: column-reverse nowrap;
+        /* display: flex;
+        flex-flow: column nowrap; */
+    }
+
+    .about>img {
+        width: 100%;
+    }
+
+    .about-title>h3 {
+        font-size: 3rem;
+    }
+
+    .about-text {
+        width: 95%;
+        margin-bottom: -5rem;
+    }
+
+    .about-text>p {
+        font-size: .9rem;
+        width: 90%;
+        line-height: 1.5rem;
+    }
+
+    .growth-content {
+        display: none;
+    }
+
+    .growth-content img {
+        padding: 3rem 0 2rem 0;
+    }
+
+
+    .form-group {
+        width: 80%;
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: center;
+    }
+
+    .footer-items {
+        display: flex;
+        flex-flow: column-reverse nowrap;
+
+    }
+
+    .social-icons {
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+}
+
+@media (max-width: 600px) {
+    header {
+        background-size: 100% 100%;
+    }
+
+    nav {
+        overflow: hidden;
+        position: relative;
+    }
+
+    nav>img {
+        width: 45%;
+    }
+
+    .navbar {
+        font-size: 18px;
+    }
+
+    .main-nav {
+        list-style-type: none;
+        display: none;
+        margin-top: 2rem;
+    }
+
+    .nav-links {
+        text-decoration: none;
+    }
+
+    .main-nav li {
+        text-align: center;
+        margin: 15px auto;
+    }
+
+    .main-nav li a {
+        color: white;
+    }
+
+    .navbar-toggle {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    .active {
+        display: block;
+    }
+
+
+    .nav-links {
+        display: flex;
+        flex-flow: column nowrap;
+        font-size: .5rem;
+        padding-left: 40%;
+    }
+
+}
+
+@media (max-width: 900px) {
+    header {
+        background-size: 100% 100%;
+    }
+
+    nav {
+        overflow: hidden;
+        position: relative;
+    }
+
+    nav>img {
+        width: 45%;
+    }
+
+    .navbar {
+        font-size: 18px;
+    }
+
+    .main-nav {
+        list-style-type: none;
+        display: none;
+        margin-top: 2rem;
+    }
+
+    .nav-links {
+        text-decoration: none;
+    }
+
+    .main-nav li {
+        text-align: center;
+        margin: 15px auto;
+    }
+
+    .main-nav li a {
+        color: white;
+    }
+
+    .navbar-toggle {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    .active {
+        display: block;
+    }
+
+
+    .nav-links {
+        display: flex;
+        flex-flow: column nowrap;
+        font-size: .5rem;
+        padding-left: 40%;
+    }
+
+    .quote>p {
+        width: 95%;
+    }
+
+    .about-text {
+        width: 95%;
+        margin-bottom: -5rem;
+        padding-bottom: 5rem;
+    }
+}
+
+@media (min-width: 901px) {
+    header {
+        background-size: 100% 100%;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+}
+
+/* @media (min-width: 1800px) {
+    header {
+        background-size: 100% 100%;
+    }
+
+    .navbar-toggle {
+        display: none;
+    } */
+}
